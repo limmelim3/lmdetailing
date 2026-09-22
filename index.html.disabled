@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LM Detailing – fordonsservice och detailing.">
+  <title>LM Detailing | Hem</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Huvudnavigation">
+      <a class="brand" href="index.html" aria-label="LM Detailing – startsida">
+        <img class="logo-image" src="media/LM_Detailing_horizontal_800x200_transparent.png" alt="LM Detailing">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Öppna meny">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="main-menu">
+        <a class="active" href="index.html">Hem</a>
+        <a href="detailing.html">Detailing</a>
+        <a href="autoservice.html">Autoservice</a>
+        <a href="om-oss.html">Om oss</a>
+        <a class="nav-cta" href="boka.html">Boka tid</a>
+        <span class="nav-underline" aria-hidden="true"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-slides" aria-label="Bildspel">
+        <div class="hero-slide active" style="background-image: url('media/slideshow/slide_1.png');"></div>
+        <div class="hero-slide" style="background-image: url('media/slideshow/slide_2.png');"></div>
+        <div class="hero-slide" style="background-image: url('media/slideshow/slide_3.png');"></div>
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container hero-intro">
+        <h1>Precision för din bil.</h1>
+        <p>Service, underhåll och detailing med fokus på kvalitet i varje detalj.</p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="boka.html">Boka service</a>
+          <a class="btn btn-ghost" href="detailing.html">Utforska detailing</a>
+        </div>
+      </div>
+
+      <div class="slider-controls" aria-label="Bildspelsnavigation">
+        <div class="slider-dots"></div>
+      </div>
+    </section>
+
+    <section class="section section-overlap section-all-needs">
+      <div class="container">
+        <div class="section-heading reveal-left">
+          <p class="eyebrow">TVÅ OMRÅDEN. EN STANDARD.</p>
+          <h2>Allt din bil behöver.</h2>
+          <p>Välj mellan teknisk fordonsservice och professionell bilvård.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <img class="card-image" src="media/autorepair_example.png" alt="Autoservice">
+            <div class="card-body">
+              <p class="eyebrow">AUTOSERVICE</p>
+              <h3>Service &amp; underhåll</h3>
+              <p>Däck, bromsar, olje- och filterbyte, full service samt torkarblad.</p>
+              <a class="text-link" href="autoservice.html">Se autoservice →</a>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <img class="card-image" src="media/detailing_example.png" alt="Detailing">
+            <div class="card-body">
+              <p class="eyebrow">DETAILING</p>
+              <h3>Finish &amp; bilvård</h3>
+              <p>Från interiörtvätt till full rekond och behandlingar.</p>
+              <a class="text-link" href="detailing.html">Se detailing →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark section-overlap section-standard">
+      <div class="container split">
+        <div class="reveal-up">
+          <p class="eyebrow">LM STANDARD</p>
+          <h2>En genomtänkt upplevelse från bokning till färdig bil.</h2>
+          <p>Den här sektionen kan byggas ut med era arbetssätt, garantier, kundlöften eller bilder från verksamheten.</p>
+          <a class="btn btn-light" href="om-oss.html">Läs mer om oss</a>
+        </div>
+
+        <div class="stat-panel reveal-up reveal-delay-1">
+          <div>
+            <strong>01</strong>
+            <span>Enkel bokning</span>
+          </div>
+          <div>
+            <strong>02</strong>
+            <span>Transparent service</span>
+          </div>
+          <div>
+            <strong>03</strong>
+            <span>Detaljfokus</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-overlap section-booking-cta">
+      <div class="booking-gallery" aria-hidden="true">
+        <div class="booking-image"><img src="media/slideshow/slide_1.png" alt=""></div>
+        <div class="booking-image"><img src="media/slideshow/slide_2.png" alt=""></div>
+        <div class="booking-image"><img src="media/slideshow/slide_3.png" alt=""></div>
+      </div>
+
+      <div class="booking-gallery-overlay" aria-hidden="true"></div>
+
+      <div class="container booking-cta-content">
+        <div class="section-heading center reveal-scale">
+          <p class="eyebrow">REDO ATT BOKA?</p>
+          <h2>Ge bilen rätt behandling.</h2>
+          <a class="btn btn-primary" href="boka.html">Boka tid</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"></footer>
+
+  <button id="scrollTop" class="scroll-top" aria-label="Till toppen">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
